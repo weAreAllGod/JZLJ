@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.edu.bjtu.jzlj.mapper.CarCarryInfoMapper">
+
+    <!-- 开启二级缓存 -->
+    <cache type="org.mybatis.caches.ehcache.LoggingEhcache"/>
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.edu.bjtu.jzlj.domain.CarCarryInfo">
+        <id column="CARRY_ID" property="carryId"/>
+        <result column="CAR_ID" property="carId"/>
+        <result column="CONSTRUCTION_WASTE_ID" property="constructionWasteId"/>
+        <result column="ACTUAL_WEIGHT" property="actualWeight"/>
+        <result column="ACTUAL_WEIGHT_UNIT" property="actualWeightUnit"/>
+        <result column="INTAKE_PLANT_ID" property="intakePlantId"/>
+        <result column="INPUT_NAME" property="inputName"/>
+        <result column="INPUT_TIME" property="inputTime"/>
+        <result column="CONTENT" property="content"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CARRY_ID, CAR_ID, CONSTRUCTION_WASTE_ID, ACTUAL_WEIGHT, ACTUAL_WEIGHT_UNIT, INTAKE_PLANT_ID, INPUT_NAME, INPUT_TIME, CONTENT
+    </sql>
+
+</mapper>

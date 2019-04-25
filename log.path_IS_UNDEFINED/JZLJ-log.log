@@ -1,0 +1,84 @@
+2019-04-18 13:29:49.005 [main] INFO  cn.edu.bjtu.demo2.Demo2Application - Starting Demo2Application on XB-201703311523 with PID 7464 (E:\idea_projects\demo2\target\classes started by Administrator in E:\idea_projects\demo2)
+2019-04-18 13:29:49.010 [main] INFO  cn.edu.bjtu.demo2.Demo2Application - No active profile set, falling back to default profiles: default
+2019-04-18 13:29:50.954 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-04-18 13:29:50.968 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-18 13:29:50.979 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-18 13:29:50.979 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-18 13:29:51.222 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-18 13:29:51.223 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2130 ms
+2019-04-18 13:29:52.814 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-04-18 13:29:53.708 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-18 13:29:54.030 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-18 13:29:54.059 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-18 13:29:54.063 [main] INFO  cn.edu.bjtu.demo2.Demo2Application - Started Demo2Application in 5.964 seconds (JVM running for 7.104)
+2019-04-18 13:30:29.478 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-18 13:30:29.479 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-04-18 13:30:29.488 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2019-04-18 13:30:29.553 [http-nio-8080-exec-1] DEBUG c.e.b.demo2.mapper.CarCarryInfoMapper.selectList - ==>  Preparing: SELECT CARRY_ID AS carryId,CAR_Id AS carId,CONSTRUCTION_WASTE_ID AS constructionWasteId,ACTUAL_WEIGHT AS actualWeight,ACTUAL_WEIGHT_UNIT AS actualWeightUnit,INTAKE_PLANT_ID AS intakePlantId,INPUT_NAME AS inputName,INPUT_TIME AS inputTime,CONTENT AS content FROM CAR_CARRY_INFO 
+2019-04-18 13:30:29.578 [http-nio-8080-exec-1] DEBUG c.e.b.demo2.mapper.CarCarryInfoMapper.selectList - ==> Parameters: 
+2019-04-18 13:30:29.617 [http-nio-8080-exec-1] DEBUG c.e.b.demo2.mapper.CarCarryInfoMapper.selectList - <==      Total: 1
+2019-04-18 13:30:29.619 [http-nio-8080-exec-1] WARN  cn.edu.bjtu.demo2.domain.CarCarryInfo - [CarCarryInfo(carryId=1, carId=1, constructionWasteId=1, actualWeight=1, actualWeightUnit=1, intakePlantId=1, inputName=1, inputTime=Thu Apr 18 06:45:22 CST 2019, content=2)]
+2019-04-18 13:32:15.127 [main] INFO  cn.edu.bjtu.demo2.Demo2Application - Starting Demo2Application on XB-201703311523 with PID 5504 (E:\idea_projects\demo2\target\classes started by Administrator in E:\idea_projects\demo2)
+2019-04-18 13:32:15.133 [main] INFO  cn.edu.bjtu.demo2.Demo2Application - No active profile set, falling back to default profiles: default
+2019-04-18 13:32:16.908 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-04-18 13:32:16.922 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-18 13:32:16.936 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-18 13:32:16.936 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-18 13:32:17.175 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-18 13:32:17.175 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1943 ms
+2019-04-18 13:32:18.666 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-04-18 13:32:19.483 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-18 13:32:19.787 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-18 13:32:19.817 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-18 13:32:19.820 [main] INFO  cn.edu.bjtu.demo2.Demo2Application - Started Demo2Application in 5.526 seconds (JVM running for 6.612)
+2019-04-18 13:33:16.941 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-18 13:33:16.941 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-04-18 13:33:16.948 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-04-18 13:33:17.008 [http-nio-8080-exec-1] DEBUG c.e.b.demo2.mapper.CarCarryInfoMapper.selectList - ==>  Preparing: SELECT CARRY_ID AS carryId,CAR_Id AS carId,CONSTRUCTION_WASTE_ID AS constructionWasteId,ACTUAL_WEIGHT AS actualWeight,ACTUAL_WEIGHT_UNIT AS actualWeightUnit,INTAKE_PLANT_ID AS intakePlantId,INPUT_NAME AS inputName,INPUT_TIME AS inputTime,CONTENT AS content FROM CAR_CARRY_INFO 
+2019-04-18 13:33:17.028 [http-nio-8080-exec-1] DEBUG c.e.b.demo2.mapper.CarCarryInfoMapper.selectList - ==> Parameters: 
+2019-04-18 13:33:17.063 [http-nio-8080-exec-1] DEBUG c.e.b.demo2.mapper.CarCarryInfoMapper.selectList - <==      Total: 1
+2019-04-18 13:33:17.065 [http-nio-8080-exec-1] WARN  cn.edu.bjtu.demo2.domain.CarCarryInfo - [CarCarryInfo(carryId=1, carId=1, constructionWasteId=1, actualWeight=1, actualWeightUnit=1, intakePlantId=1, inputName=1, inputTime=Thu Apr 18 06:45:22 CST 2019, content=2)]
+2019-04-18 13:35:00.082 [http-nio-8080-exec-5] DEBUG c.e.b.demo2.mapper.CarCarryInfoMapper.selectList - ==>  Preparing: SELECT CARRY_ID AS carryId,CAR_Id AS carId,CONSTRUCTION_WASTE_ID AS constructionWasteId,ACTUAL_WEIGHT AS actualWeight,ACTUAL_WEIGHT_UNIT AS actualWeightUnit,INTAKE_PLANT_ID AS intakePlantId,INPUT_NAME AS inputName,INPUT_TIME AS inputTime,CONTENT AS content FROM CAR_CARRY_INFO 
+2019-04-18 13:35:00.082 [http-nio-8080-exec-5] DEBUG c.e.b.demo2.mapper.CarCarryInfoMapper.selectList - ==> Parameters: 
+2019-04-18 13:35:00.099 [http-nio-8080-exec-5] DEBUG c.e.b.demo2.mapper.CarCarryInfoMapper.selectList - <==      Total: 1
+2019-04-18 13:35:00.100 [http-nio-8080-exec-5] WARN  cn.edu.bjtu.demo2.domain.CarCarryInfo - [CarCarryInfo(carryId=1, carId=1, constructionWasteId=1, actualWeight=1, actualWeightUnit=1, intakePlantId=1, inputName=1, inputTime=Thu Apr 18 06:45:22 CST 2019, content=2)]
+2019-04-18 13:36:20.633 [main] INFO  cn.edu.bjtu.demo2.Demo2Application - Starting Demo2Application on XB-201703311523 with PID 6756 (E:\idea_projects\demo2\target\classes started by Administrator in E:\idea_projects\demo2)
+2019-04-18 13:36:20.638 [main] INFO  cn.edu.bjtu.demo2.Demo2Application - No active profile set, falling back to default profiles: default
+2019-04-18 13:36:22.292 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-04-18 13:36:22.305 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-18 13:36:22.316 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-18 13:36:22.316 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-18 13:36:22.469 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-18 13:36:22.469 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1567 ms
+2019-04-18 13:36:23.839 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-04-18 13:36:24.689 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-18 13:36:24.991 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-18 13:36:25.021 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-18 13:36:25.025 [main] INFO  cn.edu.bjtu.demo2.Demo2Application - Started Demo2Application in 5.248 seconds (JVM running for 6.342)
+2019-04-18 13:36:34.197 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-18 13:36:34.198 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-04-18 13:36:34.205 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-04-18 13:36:34.267 [http-nio-8080-exec-1] DEBUG c.e.b.demo2.mapper.CarCarryInfoMapper.selectList - ==>  Preparing: SELECT CARRY_ID AS carryId,CAR_Id AS carId,CONSTRUCTION_WASTE_ID AS constructionWasteId,ACTUAL_WEIGHT AS actualWeight,ACTUAL_WEIGHT_UNIT AS actualWeightUnit,INTAKE_PLANT_ID AS intakePlantId,INPUT_NAME AS inputName,INPUT_TIME AS inputTime,CONTENT AS content FROM CAR_CARRY_INFO 
+2019-04-18 13:36:34.290 [http-nio-8080-exec-1] DEBUG c.e.b.demo2.mapper.CarCarryInfoMapper.selectList - ==> Parameters: 
+2019-04-18 13:36:34.319 [http-nio-8080-exec-1] DEBUG c.e.b.demo2.mapper.CarCarryInfoMapper.selectList - <==      Total: 1
+2019-04-18 13:36:34.321 [http-nio-8080-exec-1] WARN  cn.edu.bjtu.demo2.domain.CarCarryInfo - [CarCarryInfo(carryId=1, carId=1, constructionWasteId=1, actualWeight=1, actualWeightUnit=1, intakePlantId=1, inputName=1, inputTime=Thu Apr 18 06:45:22 CST 2019, content=2)]
+2019-04-18 13:37:15.026 [main] INFO  cn.edu.bjtu.demo2.Demo2Application - Starting Demo2Application on XB-201703311523 with PID 7956 (E:\idea_projects\demo2\target\classes started by Administrator in E:\idea_projects\demo2)
+2019-04-18 13:37:15.064 [main] INFO  cn.edu.bjtu.demo2.Demo2Application - No active profile set, falling back to default profiles: default
+2019-04-18 13:37:17.109 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-04-18 13:37:17.123 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-04-18 13:37:17.136 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-18 13:37:17.136 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-18 13:37:17.280 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-18 13:37:17.281 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2072 ms
+2019-04-18 13:37:18.810 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-04-18 13:37:19.702 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-18 13:37:20.029 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-04-18 13:37:20.060 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-18 13:37:20.064 [main] INFO  cn.edu.bjtu.demo2.Demo2Application - Started Demo2Application in 6.01 seconds (JVM running for 7.076)
+2019-04-18 13:37:34.661 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-18 13:37:34.662 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-04-18 13:37:34.671 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2019-04-18 13:37:34.731 [http-nio-8080-exec-1] DEBUG c.e.b.demo2.mapper.CarCarryInfoMapper.selectList - ==>  Preparing: SELECT CARRY_ID AS carryId,CAR_Id AS carId,CONSTRUCTION_WASTE_ID AS constructionWasteId,ACTUAL_WEIGHT AS actualWeight,ACTUAL_WEIGHT_UNIT AS actualWeightUnit,INTAKE_PLANT_ID AS intakePlantId,INPUT_NAME AS inputName,INPUT_TIME AS inputTime,CONTENT AS content FROM CAR_CARRY_INFO 
+2019-04-18 13:37:34.750 [http-nio-8080-exec-1] DEBUG c.e.b.demo2.mapper.CarCarryInfoMapper.selectList - ==> Parameters: 
+2019-04-18 13:37:34.780 [http-nio-8080-exec-1] DEBUG c.e.b.demo2.mapper.CarCarryInfoMapper.selectList - <==      Total: 1
+2019-04-18 13:37:34.782 [http-nio-8080-exec-1] WARN  cn.edu.bjtu.demo2.domain.CarCarryInfo - [CarCarryInfo(carryId=1, carId=1, constructionWasteId=1, actualWeight=1, actualWeightUnit=1, intakePlantId=1, inputName=1, inputTime=Thu Apr 18 06:45:22 CST 2019, content=2)]

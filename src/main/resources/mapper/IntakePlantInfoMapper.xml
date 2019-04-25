@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.edu.bjtu.jzlj.mapper.IntakePlantInfoMapper">
+
+    <!-- 开启二级缓存 -->
+    <cache type="org.mybatis.caches.ehcache.LoggingEhcache"/>
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.edu.bjtu.jzlj.domain.IntakePlantInfo">
+        <id column="INTAKE_PLANT_ID" property="intakePlantId"/>
+        <result column="INTAKE_PLANT_NAME" property="intakePlantName"/>
+        <result column="INTAKE_PLANT_ADDRESS" property="intakePlantAddress"/>
+        <result column="INTAKE_PLANT_LONG" property="intakePlantLong"/>
+        <result column="INTAKE_PLANT_LAT" property="intakePlantLat"/>
+        <result column="INPUT_NAME" property="inputName"/>
+        <result column="INPUT_TIME" property="inputTime"/>
+        <result column="CONTENT" property="content"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        INTAKE_PLANT_ID, INTAKE_PLANT_NAME, INTAKE_PLANT_ADDRESS, INTAKE_PLANT_LONG, INTAKE_PLANT_LAT, INPUT_NAME, INPUT_TIME, CONTENT
+    </sql>
+
+</mapper>

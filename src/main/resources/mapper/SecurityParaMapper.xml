@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.edu.bjtu.jzlj.mapper.SecurityParaMapper">
+
+    <!-- 开启二级缓存 -->
+    <cache type="org.mybatis.caches.ehcache.LoggingEhcache"/>
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.edu.bjtu.jzlj.domain.SecurityPara">
+        <id column="SECURITY_PARA_ID" property="securityParaId"/>
+        <result column="INTAKE_PLANT_ID" property="intakePlantId"/>
+        <result column="CONSTRUCTION_WASTE_ID" property="constructionWasteId"/>
+        <result column="CONSTRUCTION_WASTE_POSITION" property="constructionWastePosition"/>
+        <result column="CONSTRUCTION_WASTE_TYPE" property="constructionWasteType"/>
+        <result column="CONSTRUCTION_WASTE_SIZE" property="constructionWasteSize"/>
+        <result column="SECURITY_PARA_DATA1" property="securityParaData1"/>
+        <result column="SECURITY_PARA_DATA2" property="securityParaData2"/>
+        <result column="INPUT_TIME" property="inputTime"/>
+        <result column="CONTENT" property="content"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        SECURITY_PARA_ID, INTAKE_PLANT_ID, CONSTRUCTION_WASTE_ID, CONSTRUCTION_WASTE_POSITION, CONSTRUCTION_WASTE_TYPE, CONSTRUCTION_WASTE_SIZE, SECURITY_PARA_DATA1, SECURITY_PARA_DATA2, INPUT_TIME, CONTENT
+    </sql>
+
+</mapper>

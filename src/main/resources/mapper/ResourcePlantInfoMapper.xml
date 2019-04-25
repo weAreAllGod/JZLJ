@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.edu.bjtu.jzlj.mapper.ResourcePlantInfoMapper">
+
+    <!-- 开启二级缓存 -->
+    <cache type="org.mybatis.caches.ehcache.LoggingEhcache"/>
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.edu.bjtu.jzlj.domain.ResourcePlantInfo">
+        <id column="RESOURCE_PLANT_ID" property="resourcePlantId"/>
+        <result column="RESOURCE_PLANT_NAME" property="resourcePlantName"/>
+        <result column="RESOURCE_PLANT_ADDRESS" property="resourcePlantAddress"/>
+        <result column="RESOURCE_PLANT_LONG" property="resourcePlantLong"/>
+        <result column="RESOURCE_PLANT_LAT" property="resourcePlantLat"/>
+        <result column="LEGAL_PERSON" property="legalPerson"/>
+        <result column="RESPONSIBLE_PERSON" property="responsiblePerson"/>
+        <result column="RESOURCE_PLANT_TYPE" property="resourcePlantType"/>
+        <result column="DAILY_ACCEPTANCE" property="dailyAcceptance"/>
+        <result column="DAILY_OUTPUT" property="dailyOutput"/>
+        <result column="INPUT_NAME" property="inputName"/>
+        <result column="INPUT_TIME" property="inputTime"/>
+        <result column="CONTENT" property="content"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        RESOURCE_PLANT_ID, RESOURCE_PLANT_NAME, RESOURCE_PLANT_ADDRESS, RESOURCE_PLANT_LONG, RESOURCE_PLANT_LAT, LEGAL_PERSON, RESPONSIBLE_PERSON, RESOURCE_PLANT_TYPE, DAILY_ACCEPTANCE, DAILY_OUTPUT, INPUT_NAME, INPUT_TIME, CONTENT
+    </sql>
+
+</mapper>

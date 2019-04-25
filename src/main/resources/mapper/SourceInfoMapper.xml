@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.edu.bjtu.jzlj.mapper.SourceInfoMapper">
+
+    <!-- 开启二级缓存 -->
+    <cache type="org.mybatis.caches.ehcache.LoggingEhcache"/>
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.edu.bjtu.jzlj.domain.SourceInfo">
+        <id column="SOURCE_ID" property="sourceId"/>
+        <result column="SOURCE_ADDRESS" property="sourceAddress"/>
+        <result column="SOURCE_LONG" property="sourceLong"/>
+        <result column="SOURCE_LAT" property="sourceLat"/>
+        <result column="START_DATE" property="startDate"/>
+        <result column="SOOURCE_ATTRBUTE" property="soourceAttrbute"/>
+        <result column="SOURCE_COMPANY" property="sourceCompany"/>
+        <result column="SOURCE_TYPE" property="sourceType"/>
+        <result column="WASTE_COMPONENT" property="wasteComponent"/>
+        <result column="END_DATE" property="endDate"/>
+        <result column="WASTE_TOTAL" property="wasteTotal"/>
+        <result column="WASTE_UNIT" property="wasteUnit"/>
+        <result column="SUGGESTION" property="suggestion"/>
+        <result column="INPUT_NAME" property="inputName"/>
+        <result column="INPUT_TIME" property="inputTime"/>
+        <result column="CONTENT" property="content"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        SOURCE_ID, SOURCE_ADDRESS, SOURCE_LONG, SOURCE_LAT, START_DATE, SOOURCE_ATTRBUTE, SOURCE_COMPANY, SOURCE_TYPE, WASTE_COMPONENT, END_DATE, WASTE_TOTAL, WASTE_UNIT, SUGGESTION, INPUT_NAME, INPUT_TIME, CONTENT
+    </sql>
+
+</mapper>
